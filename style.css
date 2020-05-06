@@ -10,7 +10,7 @@ h1 {
     color: rgb(20, 20, 20);
     text-align: center;
     text-transform: uppercase;
-    
+
 }
 
 body {
@@ -38,12 +38,21 @@ body {
 }
 
 .challengetrophy {
-
+    width: 30px;
 }
 
 .tryit {
     font-family: 'Open Sans', sans-serif;
 
+}
+
+.challengegrid {
+    display: grid;
+}
+
+.challengeblock {
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
 
 /*Sticker Page*/
