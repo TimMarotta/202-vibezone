@@ -26,9 +26,38 @@ body {
     background-size: 45%;
 }
 
+p {
+    font-size: 16px;
+    font-family: 'Open Sans', -apple-system, sans-serif;
+    color: rgb(112,112,112);
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(238, 238, 238);
+    text-align: left;
+    text-transform: uppercase;
+}
 
 /*Menu*/
 
+
+/* Home Page */
+#homebody {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.homechallenge {
+    background-color: white;
+    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.07);
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    float: left;
+    width: 60vw;
+    
+}
 
 /*Challenge page*/
 
@@ -48,11 +77,12 @@ body {
 
 .challengetrophy {
     width: 30px;
+    float: right;
 }
 
 .tryit {
     font-family: 'Open Sans', sans-serif;
-
+    clear: left;
 }
 
 .challengegrid {
