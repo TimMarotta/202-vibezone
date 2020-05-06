@@ -3,14 +3,22 @@
 
 
 
-/*TAGS MODIFIED EVERYWHERE!!!!!!*/
+/*USFUL TAGS FOR EVERYWHERE*/
 
-h1 {
+.pagetitle {
     font-family: 'Open Sans', sans-serif;
-    color: rgb(20, 20, 20);
+    color: rgb(238, 238, 238);
     text-align: center;
     text-transform: uppercase;
 
+}
+
+.centertext {
+    text-align: center;
+}
+
+.nofloat {
+    clear: both;
 }
 
 body {
@@ -35,6 +43,7 @@ body {
 
 .challengetext {
     font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
 }
 
 .challengetrophy {
@@ -47,12 +56,26 @@ body {
 }
 
 .challengegrid {
-    display: grid;
+    display: inline-grid;
+    column-gap: 5px;
+    row-gap: 20px;
+
 }
 
 .challengeblock {
-    grid-row-start: 1;
-    grid-row-end: 1;
+    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.07);
+    padding: 10px;
+    border-radius: 25px;
+    width: 25vw;
+    height: 20vw;
+    margin-right: 10px;
+    float: left;
+
+}
+
+.trymore {
+    margin-top: 25px;
+    font-weight: 800;
 }
 
 /*Sticker Page*/
