@@ -26,6 +26,8 @@ body {
     background-repeat: repeat-x;
     background-attachment: fixed;
     background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
@@ -66,12 +68,59 @@ h3 {
 }
 
 /*Menu*/
+.sidenav {
+    height: 80%;
+    width: 0px;
+    position: fixed;
+    top: 0;
+    left: -10;
+    background-image: url(img/BKGRNDS-11.png);
+    background-size: 292.5px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: left;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #818181;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
 
+#hamburger {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 30pt;
+    cursor:pointer;
+    color: rgba(255,255,255, 1.0);
+}
+
+#hamburger:hover {
+    color: rgba(255,255,255, 0.3);
+    transition: 0.3s;
+}
 
 /* Home Page */
 #homebody {
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
 }
 .homechallenge {
