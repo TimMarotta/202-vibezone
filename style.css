@@ -5,7 +5,7 @@
 
 /*USFUL TAGS FOR EVERYWHERE*/
 
-.pagetitle {
+h1 {
     font-family: 'Open Sans', sans-serif;
     color: rgb(238, 238, 238);
     text-align: center;
@@ -37,8 +37,32 @@ p {
 h2 {
     font-family: 'Open Sans', sans-serif;
     color: rgb(238, 238, 238);
-    text-align: left;
     text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tryit {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #85e1ed;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 15px;
+    text-transform: uppercase;
+    border: none;
+    padding: 5px 10px;
+}
+
+.tryit:hover {
+    background-color: #6ab8c3;
+    transition: 0.4s;
 }
 
 /*Menu*/
@@ -48,7 +72,7 @@ h2 {
 #homebody {
     margin-left: auto;
     margin-right: auto;
-    display: inline-block;
+    text-align: center;
 }
 .homechallenge {
     background-color: white;
@@ -56,9 +80,31 @@ h2 {
     padding: 10px;
     border-radius: 25px;
     margin-bottom: 10px;
-    float: left;
     width: 60vw;
+    clear: both;
+    display:inline-block;
+    text-align: left;
+    height: auto;
+}
+
+.homechallengetext {
+    width: 73%;
+    float: left;
+    padding-left: 2%;
+}
+
+.homechallengeitems {
+    width:25%;
+    float: right;
+    height: 100%;
+    text-align: center;
+    margin-top: 10px;
     
+}
+
+.hometrophy {
+    width : 60px;
+    margin-bottom: 10px;
 }
 
 /*Challenge page*/
@@ -79,12 +125,6 @@ h2 {
 
 .challengetrophy {
     width: 30px;
-    float: right;
-}
-
-.tryit {
-    font-family: 'Open Sans', sans-serif;
-    clear: left;
 }
 
 .challengegrid {
