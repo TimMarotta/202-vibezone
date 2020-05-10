@@ -249,14 +249,15 @@ h3 {
     background-color: #868686;
     border-radius: 15px;
 }
-.enter{
+
+.enter {
     width: 100%;
     text-align: center;
 }
 
 #myBar {
-    height:10px;
-    width:1%;
+    height: 10px;
+    width: 1%;
     background-color: #85e1ed;
     border-radius: 15px;
 }
@@ -291,12 +292,14 @@ h3 {
     padding: 10px;
     border-radius: 25px;
     margin-bottom: 10px;
-    width: 60vw;
+    width: 50vw;
     clear: both;
     display: inline-block;
     text-align: left;
-    display: inline-block;
     height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
 
 }
 
@@ -305,4 +308,37 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+}
+
+.completedchallenges {
+    background-color: white;
+    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.07);
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    width: 30vw;
+    display: inline-block;
+    text-align: left;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/*add friends input*/
+.addfriendsinput {
+    margin-left: 33vw;
+    margin-right: auto;
+}
+
+input {
+    width: 40%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 12px 20px;
+}
+
+#nofriends {
+    display: none;
 }
