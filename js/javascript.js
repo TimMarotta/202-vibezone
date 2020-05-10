@@ -26,10 +26,7 @@ $(document).ready(function () {
     function frame() {
       if (width >= 100) {
         clearInterval(id);
-        // HERE IS WHAT SHOULD TRIGGER FADEIN; the visibility is my current attempt
-        
-        // document.getElementById("enterbutton").style.visibility = "visible";
-        // $("#enterdiv").fadeIn(3000);
+        $("#enterdiv").fadeIn();
       } else {
         width++;
         elem.style.width = width + '%';

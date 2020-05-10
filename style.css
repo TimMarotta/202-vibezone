@@ -238,8 +238,8 @@ h3 {
     text-align: center;
 }
 
-.enter button {
-    visibility: hidden;
+#enterdiv {
+    display: none;
 }
 
 .progress {
