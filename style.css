@@ -229,3 +229,32 @@ h3 {
     grid-row-end: 3;
     align-items: center;
 }
+
+/* Loading Animation */
+.image {
+    width: 100%;
+    text-align: center;
+}
+
+.enter button {
+    visibility: hidden;
+}
+
+.progress {
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 50px;
+    background-color: #868686;
+    border-radius: 15px;
+}
+.enter{
+    width: 100%;
+    text-align: center;
+}
+
+#myBar {
+    height:10px;
+    width:1%;
+    background-color: #85e1ed;
+    border-radius: 15px;
+}
