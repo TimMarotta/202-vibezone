@@ -40,6 +40,8 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     color: rgb(238, 238, 238);
     text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 h3 {
@@ -76,6 +78,7 @@ h3 {
     left: -10;
     background-image: url(img/BKGRNDS-11.png);
     background-size: 292.5px;
+    background-repeat: no-repeat;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -155,6 +158,83 @@ h3 {
 .hometrophy {
     width: 60px;
     margin-bottom: 10px;
+}
+
+.friends {
+    text-align: center;
+    width: 100%;
+}
+.friendsrow {
+    display: block;
+}
+
+.friendsbox {
+    background-color: white;
+    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.07);
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 28vw;
+    clear: both;
+    display: inline-block;
+    text-align: left;
+    height: auto;
+}
+
+.face {
+    display: inline-block;
+    clear: both;
+    margin-right: 1vw;
+}
+
+.text {
+    display: inline-block;
+    clear: both;
+    vertical-align: top;
+    margin-right: 1vw;
+    width: 90px;
+}
+
+.buttons {
+    display: inline-block;
+    clear: both;
+    vertical-align: top;
+}
+
+.friends h3{
+    margin-top: 7px;
+    margin-bottom: 1px;
+}
+
+.friends p{
+    margin: 0;
+}
+
+.unfollow {
+    font-family: 'Open Sans', sans-serif;
+    color: #85e1ed;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 15px;
+    text-transform: uppercase;
+    border-color: #818181;
+    padding: 5px 10px;
+    margin-top: 25px;
+    margin-left: 0.75vw;
+}
+
+.unfollow:hover {
+    background-color: #85e1ed;
+    color: white;
+    border-color: white;
+    transition: 0.4s;
+}
+
+.friends .tryit{
+    border-color: white;
 }
 
 /*Challenge page*/
