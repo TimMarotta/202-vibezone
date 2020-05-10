@@ -146,4 +146,12 @@ $(document).ready(function () {
     console.log("clicked");
     $("#nofriends").css("display", "block");
   })
+
+  $(".unfollow").click(function() {
+    alert("You cannot unfollow a friend at this time.");
+  });
+
+  $(".friends .tryit").click(function() {
+    alert("You cannot message a friend at this time.");
+  });
 });
