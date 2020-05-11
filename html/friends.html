@@ -2,28 +2,95 @@
 
 
 <html>
-    <head>
-        <title>Friends | Vibezone</title>
-        <link rel="stylesheet" type="text/css" href="../style.css">
-        <script src="../js/jquery-3.5.0.js"></script>
-        <script src="../js/javascript.js"></script>
-    </head>
 
-    <body>
-        <!-- NAVIGATION BAR -->
-        <div id="hamburger">
-            <span onclick="openNav()">&#9776;</span>
-        </div>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.html">Home</a>
-            <a href="challenges.html">Challenges</a>
-            <a href="stickers.html">Stickers</a>
-            <a href="profile.html">Profile</a>
-            <a href="friends.html">Friends</a>
-        </div>
+<head>
+    <title>Add Friends | Vibezone</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../js/jquery-3.5.0.js"></script>
+    <script src="../js/javascript.js"></script>
+</head>
 
-        <!-- PAGE CONTENT -->
-        <h1>Friends</h1>
-    </body>
+<body>
+    <!-- NAVIGATION BAR -->
+    <div id="hamburger">
+        <span onclick="openNav()">&#9776;</span>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="challenges.html">Challenges</a>
+        <a href="stickers.html">Stickers</a>
+        <a href="profile.html">Profile</a>
+        <a href="friends.html">Friends</a>
+    </div>
+
+    <!-- PAGE CONTENT -->
+    <h1>Add Friends</h1>
+    <div class="addfriendsinput">
+        <input type="text">
+        <button class="tryit" id="addfriend">Add</button>
+    </div>
+    <h2 class="centertext" id="nofriends">No Users Founds</h2>
+    <br>
+    <h1 id="activefriends" class="centertext">Current Friends</h1>
+    <div class="friends">
+        <div class="friendsrow">
+            <div class="friendsbox">
+                <div class="face">
+                    <img src="../img/uifaces/uifaces_1.png" style="height: 80px">
+                </div>
+                <div class="text">
+                    <h3>Jacob</h3>
+                    <p>@jake38</p>
+                </div>
+                <div class="buttons">
+                    <button class="tryit" onclick="onclick">Message</button>
+                    <button class="unfollow">UNFOLLOW</button>
+                </div>
+            </div>
+            <div class="friendsbox">
+                <div class="face">
+                    <img src="../img/uifaces/uifaces_2.png" style="height: 80px">
+                </div>
+                <div class="text">
+                    <h3>Katie</h3>
+                    <p>@katie180</p>
+                </div>
+                <div class="buttons">
+                    <button class="tryit" onclick="onclick">Message</button>
+                    <button class="unfollow">UNFOLLOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="friendsrow">
+            <div class="friendsbox">
+                <div class="face">
+                    <img src="../img/uifaces/uifaces_3.png" style="height: 80px">
+                </div>
+                <div class="text">
+                    <h3>Grace</h3>
+                    <p>@gracie311</p>
+                </div>
+                <div class="buttons">
+                    <button class="tryit" onclick="onclick">Message</button>
+                    <button class="unfollow">UNFOLLOW</button>
+                </div>
+            </div>
+            <div class="friendsbox">
+                <div class="face">
+                    <img src="../img/uifaces/uifaces_4.png" style="height: 80px">
+                </div>
+                <div class="text">
+                    <h3>Ally </h3>
+                    <p>@ally22</p>
+                </div>
+                <div class="buttons">
+                    <button class="tryit" onclick="onclick">Message</button>
+                    <button class="unfollow">UNFOLLOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

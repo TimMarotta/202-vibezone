@@ -69,6 +69,15 @@ h3 {
     transition: 0.4s;
 }
 
+.tryit:focus {
+    outline: none;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    color: #818181;
+}
+
 /*Menu*/
 .sidenav {
     height: 100%;
@@ -155,9 +164,35 @@ h3 {
 
 }
 
+.homechallengetop {
+    display:inline-block;
+    clear: both;
+}
+
+.homechallengetop h3{
+    display:inline-block;
+    clear: both;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: top;
+    font-size: 36px;
+    width: 348.28px;
+}
+
+.homechallengetop button{
+    margin-top: 8px;
+}
+
+
 .hometrophy {
-    width: 60px;
-    margin-bottom: 10px;
+    vertical-align: top;
+    height: 32px;
+    margin-top: 8px;
+    vertical-align: top;
+    clear: both;
+    display: inline-block;
 }
 
 .friends {
@@ -233,6 +268,10 @@ h3 {
     transition: 0.4s;
 }
 
+.unfollow:focus{
+    outline: none;
+}
+
 .friends .tryit{
     border-color: white;
 }
@@ -267,10 +306,10 @@ h3 {
     box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.07);
     padding: 10px;
     border-radius: 25px;
-    width: 25vw;
+    width: 27vw;
     height: auto;
-    margin-right: 30px;
-    margin-left: 35px;
+    margin-right: 42px;
+    margin-left: 42px;
     overflow: scroll;
     margin-top: 10px;
     float: left;
@@ -286,6 +325,32 @@ h3 {
 .trymore {
     margin-top: 25px;
     font-weight: 800;
+}
+
+.challengetop h3{
+    display:inline-block;
+    clear: both;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: top;
+    /* font-size: 30px; */
+    /* width: 348.28px; */
+}
+
+.challengetop{
+    vertical-align: top;
+}
+
+.challengetop button {
+    margin-top: 8px;
+}
+
+.bottom {
+    margin-top: 30%;
+    text-align: center;
+    font-weight: 700;
 }
 
 /*Sticker Page*/
@@ -365,10 +430,10 @@ h3 {
 }
 
 #overlayimg {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    width: 300px;
+    margin-left: 35%;
+    /* margin-right: 50%; */
+    margin-top: 25%;
+    width: 30%;
 }
 
 /* Profile */
@@ -409,6 +474,23 @@ h3 {
     height: auto;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+#babyjared{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.profilecontainer {
+    margin-left: 4vw;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    color: #818181;
 }
 
 
